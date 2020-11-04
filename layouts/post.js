@@ -9,7 +9,6 @@ export default function PostLayout (props) {
       </Head>
       <article>
         <h1 style={{ marginBottom: 0 }}>{props.title}</h1>
-        <p style={{ display: 'inline-block', margin: 0 }}>{props.date}</p>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
       </article>
     </Layout>
