@@ -19,6 +19,7 @@ html {
 body {
   box-sizing: border-box;
   background: var(--bg);
+  color: var(--textNormal);
   font-size: 14px;
   font-family: 'JetBrains Mono';
   margin: 0;
