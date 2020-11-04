@@ -31,6 +31,7 @@ export default function Blog (props) {
 
 export async function getStaticProps () {
   const allPosts = await getAllPosts()
+  allPosts.sort((a, b) => new Date(b.date) - new Date(a.date))
   return {
     props: {
       posts: allPosts
