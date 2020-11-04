@@ -1,7 +1,10 @@
 import Head from 'next/head'
-import Layout from '../layouts/layout'
+import Link from 'next/link'
+import Layout from '@layouts/layout'
 
-export default function About () {
+import { getAllPosts } from '@api'
+
+export default function Blog (props) {
   return (
     <Layout>
       <Head>
@@ -10,8 +13,27 @@ export default function About () {
       <div>
         <h1>Blog</h1>
         <p>Random thoughts about career and life. Sometimes I share my journal writings here too.</p>
-
+        <ul>
+          {props.posts.map(function (post, idx) {
+            return (
+              <li key={idx}>
+                <Link href={'/posts/' + post.slug}>
+                  <a>{post.title}</a>
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
       </div>
     </Layout>
   )
+}
+
+export async function getStaticProps () {
+  const allPosts = await getAllPosts()
+  return {
+    props: {
+      posts: allPosts
+    }
+  }
 }

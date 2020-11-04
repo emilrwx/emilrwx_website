@@ -1,7 +1,6 @@
 ---
 title: A New Start
 date: "2020-04-27"
-description: At the start of 2019, I decided that I want to switch from web development to data science. I started learning and reading everything about data science, Python and mathematics related to data science…
 category: [Career]
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Diving into NLP
 date: "2020-07-13"
-description: The more I learn about NLP, the more I get sucked into it. There are so many opportunities in NLP that we have still not conquered.
 category: [Career, NLP]
 ---
 
