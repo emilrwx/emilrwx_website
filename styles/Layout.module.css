@@ -27,10 +27,6 @@
   color: var(--textLink);
 }
 
-.menuLink:hover {
-  color: var(--textTitle);
-}
-
 .content {
   margin-left: auto;
   margin-right: auto;

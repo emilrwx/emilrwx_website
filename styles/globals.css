@@ -38,6 +38,7 @@ a {
 
 a:hover {
   box-shadow: none;
+  color: var(--hr);
 }
 
 p,
