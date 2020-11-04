@@ -7,35 +7,35 @@ class Layout extends React.Component {
     const { children } = this.props
 
     return (
-      <div class='container'>
-        <div class='menu'>
-          <div>
-            <p>
-              <Link href='/'>
+      <div className={styles.container}>
+        <div className={styles.menuBar}>
+          <div className={styles.menuLinks}>
+            <p className={styles.menuText}>
+              <Link className={styles.menuLink} href='/'>
                 Home
               </Link>
               &nbsp;-&nbsp;
             </p>
-            <p>
-              <Link href='/about'>
+            <p className={styles.menuText}>
+              <Link className={styles.menuLink} href='/about'>
                 About
               </Link>
               &nbsp;-&nbsp;
             </p>
-            <p>
-              <Link href='/blog'>
+            <p className={styles.menuText}>
+              <Link className={styles.menuLink} href='/blog'>
                 Blog
               </Link>
               &nbsp;-&nbsp;
             </p>
-            <p>
-              <Link href='/uses'>
+            <p className={styles.menuText}>
+              <Link className={styles.menuLink} href='/uses'>
                 Uses
               </Link>
             </p>
           </div>
         </div>
-        <div class='content'>
+        <div className={styles.content}>
           <main>{children}</main>
         </div>
       </div>
