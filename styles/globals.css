@@ -10,10 +10,17 @@
 html {
   overflow-y: visible;
   background: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
   font-size: 14px;
   line-height: 1.5rem;
   font-family: 'JetBrains Mono';
-  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
 }
 
 ul,
