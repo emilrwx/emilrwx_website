@@ -16,7 +16,7 @@ export default function Blog (props) {
         <ul>
           {props.posts.map(function (post, idx) {
             return (
-              <li key={idx}>
+              <li key={idx}>{post.date}:&nbsp;
                 <Link href={'/posts/' + post.slug}>
                   <a>{post.title}</a>
                 </Link>

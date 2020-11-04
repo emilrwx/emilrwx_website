@@ -33,4 +33,5 @@
   max-width: 1000px;
   padding: 0 1rem;
   min-height: calc(100vh - 50px - 2rem);
+  box-sizing: border-box;
 }
