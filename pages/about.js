@@ -20,9 +20,9 @@ export default function About () {
         <p>When I'm not working I like to go for long walks, workout, read books or play some video games. I'm a lifelong learner, always curious and always learning something. That is one of the main reasons I love to work in this field. Since I started coding, there has not been a single day that I did not learn something new.</p>
         <h2>Contact:</h2>
         <ul>
-          <li><a href='https://github.com/emilrwx'>Github</a></li>
-          <li><a href='https://www.linkedin.com/in/emilnuutinen/'>LinkedIn</a></li>
-          <li><a href='https://www.instagram.com/emilrwx/'>Instagram</a></li>
+          <li>Github: <a href='https://github.com/emilrwx'>emilrwx</a></li>
+          <li>Telegram: @emilrwx</li>
+          <li>Reddit: @emilrwx</li>
         </ul>
         <p>Want to know more? Want to chat with me? Want to work with me? Get in touch! :)</p>
         <div>
@@ -42,7 +42,7 @@ export default function About () {
         </div>
         <div>
           <h2>Education:</h2>
-          <h4>BBA - Business Information Technology</h4>
+          <h3>BBA - Business Information Technology</h3>
           <p>Turku University of Applied Sciences (2017-2020)
             <ul>
               <li>Specialization in ICT services and business information systems</li>

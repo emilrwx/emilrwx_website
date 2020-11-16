@@ -9,7 +9,7 @@ export default function About () {
       </Head>
       <div>
         <h1>Daily Uses</h1>
-        <p>I get often asked what software or hardware I use. So I decided to make a separate page listing everything I use daily. I have a lot of pics of my setup in my <a href='https://www.instagram.com/emilrwx/'>Instagram</a>.</p>
+        <p>I get often asked what software or hardware I use. So I decided to make a separate page listing everything I use daily.</p>
         <div>
           <h2>Desktop Setup</h2>
           <ul>
@@ -24,7 +24,7 @@ export default function About () {
         <div>
           <h2>Software</h2>
           <ul>
-            <li>Slightly riced <a href='https://awesomewm.org/'>Awesome</a> tiling window manager. I also use parts of the <a href='https://github.com/lcpz/lain'>Lain</a> module.</li>
+            <li>Slightly riced i3-gaps tiling window manager with Polybar and Picom.</li>
             <li>Most of my development is done with <a href='https://code.visualstudio.com/'>Visual Studio Code</a>. I have my own <a href='https://marketplace.visualstudio.com/items?itemName=EmilNuutinen.fresh-dark'>theme</a> for it.</li>
             <li>Terminal client is Kitty with <a href='https://ohmyz.sh/'>Oh My ZSH</a> & <a href='https://github.com/denysdovhan/spaceship-prompt'>Spaceship prompt</a>.</li>
             <li>My current favorite font is <a href='https://www.jetbrains.com/lp/mono/'>JetBrains Mono</a>.</li>
