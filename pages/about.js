@@ -34,8 +34,8 @@ export default function About () {
         <div>
           <h2>Most used technologies:</h2>
           <ul>
+            <li>JavaScript [React, Next.js Gatsby]</li>
             <li>Python [Django]</li>
-            <li>JavaScript [React, Gatsby]</li>
             <li>HTML & CSS</li>
             <li>I have used Node.js, Vue.js, Electron and Wordpress too, but not that much.</li>
           </ul>
