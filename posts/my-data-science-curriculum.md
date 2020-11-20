@@ -47,7 +47,7 @@ Phase 1 is composed mostly about online courses that teach the fundamentals.
 * [Algebra II | Math |Khan Academy](https://www.khanacademy.org/math/algebra2)
 * [Statistics and Probability |Khan Academy](https://www.khanacademy.org/math/statistics-probability)
 * [Calculus 1 | Math |Khan Academy](https://www.khanacademy.org/math/calculus-1)
-* [Calculus 2 | Math |Khan Academy](https://www.khanacademy.org/math/calculus-2)7. 
+* [Calculus 2 | Math |Khan Academy](https://www.khanacademy.org/math/calculus-2)
 * [Multivariable Calculus |Khan Academy](https://www.khanacademy.org/math/multivariable-calculus)
 * [Linear Algebra |Khan Academy](https://www.khanacademy.org/math/linear-algebra)
 
