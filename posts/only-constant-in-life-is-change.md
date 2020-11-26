@@ -10,7 +10,7 @@ And honestly… I don’t want to study data science anymore. Don’t get me wro
 
 And although I really enjoy data science, I just don’t have the same passion for it as I have towards web development. I have started to think that maybe it was not the right choice to try and make data science my main career. Maybe I should just learn it on the side and incorporate it into web development in some way.
 
-### Learning from change
+## Learning from change
 
 I felt really disappointed when I made the decision to stop learning data science. But the more I thought about it, the less it made sense to feel bad about it. I made a mistake and I learned from it. I learned what I am really passionate about. I really really love web development. I actually feel happy when I write code and build websites. I did not realize that before I tried to learn data science.
 
@@ -18,7 +18,7 @@ Living in Spain has also taught me that I don’t want to live here permanently.
 
 After living in Spain for almost two months, I can say that the thought of living abroad was better than actually living abroad is. Don’t get me wrong, I love being in Spain right now. This country is amazing and the people here are lovely. But living away from my home country, my family and my friends is a bigger con than all the pros that Spain has to offer me. I would love to have a second home here, but I would not want to live here permanently.
 
-### Get out of your comfort zone
+## Get out of your comfort zone
 
 Change is hard, but change is necessary. You can not evolve without change.
 
