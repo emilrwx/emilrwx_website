@@ -45,9 +45,14 @@ a:hover {
 }
 
 p,
-li {
+li,
+small {
   color: var(--textNormal);
   line-height: 1.5rem;
+}
+
+code {
+  color: var(--hr);
 }
 
 h1,

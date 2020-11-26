@@ -9,6 +9,13 @@ export default function PostLayout (props) {
       </Head>
       <article>
         <h1 style={{ marginBottom: 0 }}>{props.title}</h1>
+        <small>Tags:
+          {props.tags.map(tag => (
+            <code key={tag}>
+              &nbsp;`{tag}`
+            </code>
+          ))}
+        </small>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
       </article>
     </Layout>

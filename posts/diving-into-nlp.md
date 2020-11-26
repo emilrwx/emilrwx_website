@@ -1,7 +1,7 @@
 ---
 title: Diving into NLP
 date: "2020-07-13"
-category: [Career, NLP]
+tags: [Career, NLP]
 ---
 
 It has passed quite some time since my last post and a lot has happened since.
