@@ -19,7 +19,7 @@ export default function Home () {
           <li>Reddit: @emilrwx</li>
         </ul>
 
-        <h2>This Wesite:</h2>
+        <h2>This website:</h2>
         <p>If you find any mistakes, bugs or other inappropriateness here, leave an issue or a pull requests to the <a href='https://github.com/emilrwx/emilrwx_website'>repository</a>.</p>
       </main>
     </Layout>

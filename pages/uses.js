@@ -11,7 +11,7 @@ export default function About () {
         <h1>Daily Uses</h1>
         <p>I get often asked what software or hardware I use. So I decided to make a separate page listing everything I use daily.</p>
 
-        <h2>Desktop Setup</h2>
+        <h2>Desktop setup</h2>
         <ul>
           <li>Some old Fractal Design Case, Intel i5-6500 @ 3.600GHz, 32 GB DDR4, NVIDIA GeForce GTX 1060 3GB, Kingston 480GB & 120GB SSD, Kingston 500GB HDD</li>
           <li>Dual boot Arch Linux and Windows 10</li>
