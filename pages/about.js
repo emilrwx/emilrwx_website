@@ -17,7 +17,7 @@ export default function About () {
           <li>I used to work as a bouncer.</li>
           <li>I enjoy solving problems.</li>
           <li>I'm extremely curious about everything.</li>
-          <li>I try to learn somethin new everyday.</li>
+          <li>I try to learn something new every day.</li>
           <li>I'm probably the most introverted person you will meet.</li>
           <li>I lived a year in Alicante, Spain.</li>
           <li>I have a degree in Business Information Technology.</li>
@@ -25,7 +25,7 @@ export default function About () {
 
         <h2>What I like to do:</h2>
         <ul>
-          <li>Do extensive research on a interesting topic.</li>
+          <li>Do extensive research on an interesting topic.</li>
           <li>Find useful insights from data.</li>
           <li>Build web apps that solve real-world problems.</li>
           <li>Learn new skills to do those three things better.</li>
