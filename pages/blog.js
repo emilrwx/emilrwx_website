@@ -12,7 +12,7 @@ export default function Blog (props) {
       </Head>
       <main>
         <h1>Blog</h1>
-        <p>Random thoughts about career and life. Sometimes I share my journal writings here too.</p>
+        <p>Random ramblings about everything.</p>
         <ul>
           {props.posts.map(function (post, idx) {
             return (
