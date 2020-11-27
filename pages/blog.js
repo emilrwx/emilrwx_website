@@ -10,7 +10,7 @@ export default function Blog (props) {
       <Head>
         <title>Blog</title>
       </Head>
-      <div>
+      <main>
         <h1>Blog</h1>
         <p>Random thoughts about career and life. Sometimes I share my journal writings here too.</p>
         <ul>
@@ -24,7 +24,7 @@ export default function Blog (props) {
             )
           })}
         </ul>
-      </div>
+      </main>
     </Layout>
   )
 }
