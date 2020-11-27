@@ -10,7 +10,7 @@ export default function Home () {
       <main>
         <h1>Hi Stranger</h1>
         <p>Welcome to my corner of the web. I'm just a random dude trying to figure out how the universe works. I'm also a <strong>Software Developer</strong>.</p>
-        <p>On this website I share thoughts about life and career. I will also try my best to write about things I'm interested in, such as JavaScript, Python, machine learning, interesting books, philosophy etc.</p>
+        <p>On this website I share thoughts about life and career. I will also try my best to write about things I'm interested in, such as software development, machine learning, interesting books, philosophy, privacy, etc.</p>
 
         <h2>Contact:</h2>
         <ul>
