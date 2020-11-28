@@ -14,7 +14,7 @@ export default function About () {
         <h2>Desktop setup</h2>
         <ul>
           <li>Some old Fractal Design Case, Intel i5-6500 @ 3.600GHz, 32 GB DDR4, NVIDIA GeForce GTX 1060 3GB, Kingston 480GB & 120GB SSD, Kingston 500GB HDD</li>
-          <li>Dual boot Arch Linux and Windows 10</li>
+          <li>Dual boot Arch Linux and Windows 10&#185;</li>
           <li>LG 38WK95C-C Ultra-Wide Monitor</li>
           <li>Corsair K65 LUX RGB Tenkeyless keyboard</li>
           <li>Logitech MX Master 2S mouse</li>
@@ -42,6 +42,8 @@ export default function About () {
           <li>Bose QC35 II</li>
           <li>Sony a6000 with Sigma 30mm f/1.4</li>
         </ul>
+
+        <small>&#185;My main distro is Arch, but I use Windows for occasional gaming and for school (thesis template only works on Microsoft Word desktop).</small>
       </main>
     </Layout>
   )
