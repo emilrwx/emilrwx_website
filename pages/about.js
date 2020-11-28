@@ -9,11 +9,10 @@ export default function About () {
       </Head>
       <main>
         <h1>About</h1>
-        <p>My name is Emil and the rwx comes from read-write-execute file permissions in Linux.</p>
+        <p>My name is Emil (the rwx comes from read-write-execute file permissions in Linux). I'm just a random dude trying to figure out how the universe works. I'm also a <strong>Software Developer</strong>.</p>
         <h2>Facts about me:</h2>
         <ul>
           <li>I live in a small and cold country called Finland.</li>
-          <li>I'm a software developer.</li>
           <li>I used to work as a bouncer.</li>
           <li>I enjoy solving problems.</li>
           <li>I'm extremely curious about everything.</li>
