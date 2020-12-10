@@ -1,10 +1,9 @@
 :root {
-  --bg: rgb(17, 17, 18);
-  --header: rgba(0, 0, 0, 0.84);
-  --textNormal: rgb(168, 153, 132);
-  --textTitle: rgb(172, 126, 65);
-  --textLink: rgb(172, 65, 117);
-  --hr: rgb(147, 172, 65);
+  --bg: #282828;
+  --textNormal: #A89984;
+  --textTitle: #ac7e41;
+  --textLink: #ac4195;
+  --hr: #93ac41;
 }
 
 html {
