@@ -13,9 +13,9 @@ export default function Home () {
 
         <h2>Contact:</h2>
         <ul>
-          <li>Github: <a href='https://github.com/emilrwx'>emilrwx</a></li>
-          <li>Telegram: @emilrwx</li>
-          <li>Reddit: @emilrwx</li>
+          <li>Matrix: @emilrwx:matrix.org</li>
+          <li>Telegram: emilrwx</li>
+          <li>Reddit: emilrwx</li>
         </ul>
 
         <h2>This website:</h2>
