@@ -9,8 +9,8 @@ export default function About () {
       </Head>
       <main>
         <h1>About</h1>
-        <p>My name is Emil. I'm just a random dude trying to figure out how the universe works. I'm also a <strong>Software Developer</strong>.</p>
-        <h2>Facts about me:</h2>
+        <p>My name is Emil. I'm just a random dude trying to figure out how the universe works. I'm also a <strong>Software Developer</strong> who highly values privacy, security & open source oriented principles.</p>
+        <h2>Facts about me: </h2>
         <ul>
           <li>I live in a small and cold country called Finland.</li>
           <li>I have also lived in Alicante, Spain.</li>
@@ -22,22 +22,22 @@ export default function About () {
           <li>I'm probably the most introverted person you will meet.</li>
         </ul>
 
-        <h2>What I like to do:</h2>
+        <h2>What I like to do: </h2>
         <ul>
-          <li>Do extensive research on an interesting topic.</li>
+          <li>Research an interesting topic.</li>
           <li>Find useful insights from data.</li>
-          <li>Build web apps that solve real-world problems.</li>
+          <li>Write code to solve problems.</li>
           <li>Learn new skills to do those three things better.</li>
         </ul>
 
-        <h2>Most used technologies:</h2>
+        <h2>Most used technologies: </h2>
         <ul>
           <li>JavaScript [React, Node.js]</li>
-          <li>Python (the ususal data science stuff)</li>
+          <li>Python</li>
           <li>HTML & CSS</li>
         </ul>
 
-        <h2>Social:</h2>
+        <h2>Social: </h2>
         <ul>
           <li>Email: me@emilrwx.com</li>
           <li>Matrix: @emilrwx:matrix.org</li>
