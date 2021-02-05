@@ -1,8 +1,9 @@
 :root {
   --bg: #14161b;
-  --textNormal: #A89984;
-  --textTitle: #ac7e41;
-  --textLink: #ac4195;
+  --textNormal: #a89984;
+  --textTitle: #d79921;
+  --textLink: #b16286;
+  --headerTag: #cc241d;
   --hr: #93ac41;
 }
 
@@ -93,36 +94,36 @@ ul>li:before {
 
 h1::before {
   content: "# ";
-  color: rgb(172, 65, 66);
+  color: var(--headerTag);
   text-indent: -5px;
 }
 
 h2::before {
   content: "## ";
-  color: rgb(172, 65, 66);
+  color: var(--headerTag);
   text-indent: -5px;
 }
 
 h3::before {
   content: "### ";
-  color: rgb(172, 65, 66);
+  color: var(--headerTag);
   text-indent: -5px;
 }
 
 h4::before {
   content: "#### ";
-  color: rgb(172, 65, 66);
+  color: var(--headerTag);
   text-indent: -5px;
 }
 
 h5::before {
   content: "##### ";
-  color: rgb(172, 65, 66);
+  color: var(--headerTag);
   text-indent: -5px;
 }
 
 h6::before {
   content: "###### ";
-  color: rgb(172, 65, 66);
+  color: var(--headerTag);
   text-indent: -5px;
 }
