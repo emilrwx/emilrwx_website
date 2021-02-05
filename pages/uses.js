@@ -23,13 +23,14 @@ export default function About () {
 
         <h2>Software</h2>
         <ul>
-          <li>Slightly riced i3-gaps tiling window manager with Polybar and Picom.</li>
-          <li>Most of my development is done with <a href='https://code.visualstudio.com/'>Visual Studio Code</a>. I have my own <a href='https://marketplace.visualstudio.com/items?itemName=EmilNuutinen.fresh-dark'>theme</a> for it.</li>
+          <li>Slightly riced i3-gaps with Polybar and Picom.</li>
+          <li>Most of my development is done with <a href='https://code.visualstudio.com/'>Visual Studio Code</a>. I have my own <a href='https://github.com/emilrwx/fresh-dark'>theme</a> for it.</li>
+          <li>Vim for quick edits.</li>
+          <li>I also write my thoughts in markdown using Vim. I made templates and scripts automating my daily journals and weekly reflections.</li>
           <li>Terminal client is Kitty with <a href='https://ohmyz.sh/'>Oh My ZSH</a> & <a href='https://github.com/denysdovhan/spaceship-prompt'>Spaceship prompt</a>.</li>
-          <li>My current favorite font is <a href='https://www.jetbrains.com/lp/mono/'>JetBrains Mono</a>.</li>
-          <li>Discord, Slack & Microsoft Teams for communication.</li>
-          <li>Vim & markdown for organizing my thoughts.</li>
-          <li>Firefox & Lynx for browsing.</li>
+          <li>My favorite font is <a href='https://www.jetbrains.com/lp/mono/'>JetBrains Mono</a>.</li>
+          <li>Matrix (Element), Slack & Microsoft Teams for communication.</li>
+          <li>Firefox & Lynx for browsing the internet.</li>
           <li><a href='http://jonls.dk/redshift/'>Redshift</a> to save me from headaches during the nights.</li>
           <li>Mendeley to organize research papers.</li>
           <li>Zathura to read them and everything else pdf.</li>
@@ -43,7 +44,7 @@ export default function About () {
           <li>Sony a6000 with Sigma 30mm f/1.4</li>
         </ul>
 
-        <small>&#185;My main distro is Arch, but I use Windows for occasional gaming and for school (thesis template only works on Microsoft Word desktop).</small>
+        <small>&#185;My main distro is Arch, but I use Windows for occasional gaming and random stuff that Linux is not the best distro for.</small>
       </main>
     </Layout>
   )
