@@ -1,10 +1,10 @@
 :root {
-  --bg: #14161b;
+  --bg: #282828;
   --textNormal: #a89984;
   --textTitle: #d79921;
   --textLink: #b16286;
   --headerTag: #cc241d;
-  --hr: #93ac41;
+  --hr: #98971a;
 }
 
 html {
