@@ -13,13 +13,13 @@ export default function Home () {
 
         <h2>Contact:</h2>
         <ul>
-          <li>Email: me@emilrwx.com</li>
-          <li>Matrix: @emilrwx:matrix.org</li>
-          <li>Github: <a href='https://github.com/emilrwx'>emilrwx</a></li>
+          <li>Matrix: @emilnuutinen:matrix.org</li>
+          <li>Telegram: emilnuutinen</li>
+          <li>Github: <a href='https://github.com/emilnuutinen'>emilnuutinen</a></li>
         </ul>
 
         <h2>This website:</h2>
-        <p>If you find any mistakes, bugs or other inappropriateness here, leave an issue or a pull requests to the <a href='https://github.com/emilrwx/emilrwx_website'>repository</a>.</p>
+        <p>If you find any mistakes, bugs or other inappropriateness here, leave an issue or a pull requests to the <a href='https://github.com/emilnuutinen/emilnuutinen_website'>repository</a>.</p>
       </main>
     </Layout>
   )

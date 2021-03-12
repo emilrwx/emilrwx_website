@@ -39,11 +39,9 @@ export default function About () {
 
         <h2>Social: </h2>
         <ul>
-          <li>Email: me@emilrwx.com</li>
-          <li>Matrix: @emilrwx:matrix.org</li>
-          <li>Telegram: emilrwx</li>
-          <li>Reddit: emilrwx</li>
-          <li>Github: <a href='https://github.com/emilrwx'>emilrwx</a></li>
+          <li>Matrix: @emilnuutinen:matrix.org</li>
+          <li>Telegram: emilnuutinen</li>
+          <li>Github: <a href='https://github.com/emilnuutinen'>emilnuutinen</a></li>
         </ul>
         <p>Want to know more? Want to chat with me? Want to work with me? Get in touch! :)</p>
       </main>

@@ -24,7 +24,7 @@ export default function About () {
         <h2>Software</h2>
         <ul>
           <li>Slightly riced i3-gaps with Polybar and Picom.</li>
-          <li>Most of my development is done with <a href='https://code.visualstudio.com/'>Visual Studio Code</a>. I have my own <a href='https://github.com/emilrwx/fresh-dark'>theme</a> for it.</li>
+          <li>Most of my development is done with <a href='https://code.visualstudio.com/'>Visual Studio Code</a>. I have my own <a href='https://github.com/emilnuutinen/fresh-dark'>theme</a> for it.</li>
           <li>Vim for quick edits.</li>
           <li>I also write my thoughts in markdown using Vim. I made templates and scripts automating my daily journals and weekly reflections.</li>
           <li>Terminal client is Kitty with <a href='https://ohmyz.sh/'>Oh My ZSH</a> & <a href='https://github.com/denysdovhan/spaceship-prompt'>Spaceship prompt</a>.</li>
@@ -34,7 +34,7 @@ export default function About () {
           <li><a href='http://jonls.dk/redshift/'>Redshift</a> to save me from headaches during the nights.</li>
           <li>Mendeley to organize research papers.</li>
           <li>Zathura to read them and everything else pdf.</li>
-          <li>Messy dotfiles can be found <a href='https://github.com/emilrwx/dotfiles'>here</a>.</li>
+          <li>Messy dotfiles can be found <a href='https://github.com/emilnuutinen/dotfiles'>here</a>.</li>
         </ul>
 
         <h2>Others</h2>
