@@ -8,10 +8,10 @@ export default function About () {
         <title>Uses</title>
       </Head>
       <main>
-        <h1>Daily Uses</h1>
+        <h2>Daily Uses</h2>
         <p>I get often asked what software or hardware I use. So I decided to make a separate page listing everything I use daily.</p>
 
-        <h2>Desktop setup</h2>
+        <b>Desktop setup</b>
         <ul>
           <li>Some old Fractal Design Case, Intel i5-6500 @ 3.600GHz, 32 GB DDR4, NVIDIA GeForce GTX 1060 3GB, Kingston 480GB & 120GB SSD, Kingston 500GB HDD</li>
           <li>Dual boot Arch Linux and Windows 10&#185;</li>
@@ -21,7 +21,7 @@ export default function About () {
           <li>Blue Yeti Blackout microphone</li>
         </ul>
 
-        <h2>Software</h2>
+        <b>Software</b>
         <ul>
           <li>Slightly riced i3-gaps with Polybar and Picom.</li>
           <li>Most of my development is done with <a href='https://code.visualstudio.com/'>Visual Studio Code</a>. I have my own <a href='https://github.com/emilnuutinen/fresh-dark'>theme</a> for it.</li>
@@ -37,7 +37,7 @@ export default function About () {
           <li>Messy dotfiles can be found <a href='https://github.com/emilnuutinen/dotfiles'>here</a>.</li>
         </ul>
 
-        <h2>Others</h2>
+        <b>Others</b>
         <ul>
           <li>Iphone Xs</li>
           <li>Bose QC35 II</li>

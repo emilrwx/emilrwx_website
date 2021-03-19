@@ -11,7 +11,7 @@ export default function Blog (props) {
         <title>Blog</title>
       </Head>
       <main>
-        <h1>Blog</h1>
+        <h2>Blog</h2>
         <p>Random ramblings about everything.</p>
         <ul>
           {props.posts.map(function (post, idx) {

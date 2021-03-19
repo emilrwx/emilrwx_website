@@ -8,9 +8,9 @@ export default function About () {
         <title>About</title>
       </Head>
       <main>
-        <h1>About</h1>
-        <p>My name is Emil. I'm just a random dude trying to figure out how the universe works. I'm also a <strong>Software Developer</strong> who highly values privacy, security & open source oriented principles. My goal is to become a <strong>Data Scientist </strong> or a <strong>Machine Learning Engineer</strong> in the near future. I want to help build data-driven solutions that respect privacy and security.</p>
-        <h2>Facts about me: </h2>
+        <h2>About</h2>
+        <p>My name is Emil. I'm just a random dude trying to figure out how the universe works. I'm also a <b>Software Developer</b> who highly values privacy, security & open source oriented principles. My goal is to become a <b>Data Scientist </b> or a <b>Machine Learning Engineer</b> in the near future. I want to help build data-driven solutions that respect privacy and security.</p>
+        <b>Facts about me: </b>
         <ul>
           <li>I live in a small and cold country called Finland.</li>
           <li>I have also lived in Alicante, Spain.</li>
@@ -22,7 +22,7 @@ export default function About () {
           <li>I'm probably the most introverted person you will meet.</li>
         </ul>
 
-        <h2>What I like to do: </h2>
+        <b>What I like to do: </b>
         <ul>
           <li>Research an interesting problem.</li>
           <li>Collect data related to that problem & find useful insights from it.</li>
@@ -30,14 +30,14 @@ export default function About () {
           <li>Learn new skills to do those three things better.</li>
         </ul>
 
-        <h2>Most used technologies: </h2>
+        <b>Most used technologies: </b>
         <ul>
           <li>JavaScript [React, Node.js]</li>
           <li>Python</li>
           <li>HTML & CSS</li>
         </ul>
 
-        <h2>Social: </h2>
+        <b>Social: </b>
         <ul>
           <li>Matrix: @emilnuutinen:matrix.org</li>
           <li>Telegram: emilnuutinen</li>
