@@ -30,7 +30,7 @@
 .content {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 700px;
   padding: 0 1rem;
   min-height: calc(100vh - 50px - 2rem);
   box-sizing: border-box;
