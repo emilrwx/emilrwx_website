@@ -1,31 +1,44 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '@layouts/layout'
+import Header from '../components/header'
+import styles from '../styles/Blog.module.css'
 
 import { getAllPosts } from '@api'
 
 export default function Blog (props) {
   return (
-    <Layout>
-      <Head>
-        <title>Blog</title>
-      </Head>
-      <main>
-        <h2>Blog</h2>
-        <p>Random ramblings about everything.</p>
-        <ul>
+    <>
+      <Header title='Blog' description='Random ramblings about everything.' />
+      <Layout>
+        <Head>
+          <title>Blog</title>
+        </Head>
+        <main>
           {props.posts.map(function (post, idx) {
             return (
-              <li key={idx}>{post.date}:&nbsp;
-                <Link href={'/posts/' + post.slug}>
-                  <a>{post.title}</a>
-                </Link>
-              </li>
+              <div key={idx} className={styles.post}>
+                <h2 className={styles.blogHeader}>
+                  <Link href={'/posts/' + post.slug}>
+                    {post.title}
+                  </Link>
+                </h2>
+                <p className={styles.excerpt}>
+                  <Link href={'/posts/' + post.slug}>
+                    {post.excerpt}
+                  </Link>
+                </p>
+                <small className={styles.date}>
+                  <Link href={'/posts/' + post.slug}>
+                    {post.date}
+                  </Link>
+                </small>
+              </div>
             )
           })}
-        </ul>
-      </main>
-    </Layout>
+        </main>
+      </Layout>
+    </>
   )
 }
 

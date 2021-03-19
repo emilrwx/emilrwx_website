@@ -1,72 +1,43 @@
 :root {
-  --bg: #22272e;
-  --textNormal: #d5d8da;
-  --textLink: #b16286;
+  --bg: #ffffff;
+  --fg: rgba(0, 0, 0, 0.75);
+  --fgSecondary: rgba(0, 0, 0, 0.5);
+  --blue: rgb(65, 132, 243);
 }
 
 html {
   overflow-y: visible;
   background: var(--bg);
   margin: 0;
-  padding: 0;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 400;
+  padding: 50px 0;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   box-sizing: border-box;
   background: var(--bg);
-  color: var(--textNormal);
+  color: var(--fg);
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+p {
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
-  font-family: 'Roboto';
-  margin: 0;
-  padding: 0;
 }
 
-ul,
-ol {
-  margin-left: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-a {
-  box-shadow: none;
-  color: var(--textLink);
-  text-decoration: none;
-}
-
-a:hover {
-  box-shadow: none;
-  color: var(--hr);
-}
-
-p,
-li,
-small {
-  color: var(--textNormal);
-  line-height: 20px;
-}
-
-code {
-  color: var(--hr);
-}
-
-p,
-ul {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-li {
-  margin: 0;
-}
-
-ul>li:before {
-  content: "- ";
-  text-indent: -5px;
+b,
+strong {
+  font-weight: 500;
 }

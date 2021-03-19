@@ -1,37 +1,34 @@
 .container {
   background: var(--bg);
-  min-height: 100vh;
-}
-
-.menuBar {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 100%;
-}
-
-.menuLinks {
-  display: flex;
+  width: 750px;
+  max-width: 100vw;
   margin: 0 auto;
-}
-
-.menuText {
-  margin: 0;
-  line-height: 50px;
-  color: var(--textNormal);
-}
-
-.menuLink {
-  box-shadow: none;
-  text-decoration: none;
-  color: var(--textLink);
+  padding-top: 50px;
 }
 
 .content {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 700px;
-  padding: 0 1rem;
-  min-height: calc(100vh - 50px - 2rem);
-  box-sizing: border-box;
+  width: 650px;
+  max-width: 100vw;
+  float: left;
+}
+
+.content a {
+  box-shadow: none;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.content ul {
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.content li {
+  margin: 0;
+}
+
+.content ul>li:before {
+  content: "- ";
+  text-indent: -5px;
 }

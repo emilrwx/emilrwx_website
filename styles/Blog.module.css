@@ -1,0 +1,27 @@
+.post {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.blogHeader {
+  margin-bottom: 0;
+}
+
+.blogHeader a,
+.excerpt a,
+.date a {
+  color: var(--fg);
+  box-shadow: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.excerpt {
+  margin: 0;
+}
+
+.date a {
+  margin-top: 0;
+  color: var(--fgSecondary);
+  font-weight: 500;
+}
