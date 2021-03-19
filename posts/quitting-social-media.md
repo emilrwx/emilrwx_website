@@ -53,4 +53,4 @@ This was one more reason that 2020 is *the year* to think about your social medi
 
 **Closing Words**
 
-I know that quitting social media is a bit extreme for most people, but I do recommend for everybody to take a break from social media and try to spend more time in the real world and with the people that are actually close to you. Take a week away from social media, instead text all call to your friends, pick up a book, start a passion project, learn a new skill. You won't regret it.
+I know that quitting social media is a bit extreme for most people, but I do recommend for everybody to take a break from social media and try to spend more time in the real world and with the people that are actually close to you. Take a week away from social media, instead text or call to your friends, pick up a book, start a passion project, learn a new skill. You won't regret it.
