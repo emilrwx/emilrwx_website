@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import 'typeface-jetbrains-mono'
+import 'roboto-fontface'
 
 function MyApp ({ Component, pageProps }) {
   return <Component {...pageProps} />
