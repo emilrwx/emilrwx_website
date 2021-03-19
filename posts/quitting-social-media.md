@@ -1,7 +1,7 @@
 ---
 title: Quitting Social Media
 date: "2020-11-26"
-tags: [social media, privacy]
+excerpt: "It might seem like 2020 is not the year that you decide to quit social media. After all, social media seems to be one of the only ways to stay in contact with people at these times. But this was exactly the time when I realized that social media did not really do anything to me anymore. "
 ---
 
 
