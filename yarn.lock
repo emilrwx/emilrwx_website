@@ -4554,6 +4554,11 @@
     "hash-base" "^3.0.0"
     "inherits" "^2.0.1"
 
+"roboto-fontface@^0.10.0":
+  "integrity" "sha512-OlwfYEgA2RdboZohpldlvJ1xngOins5d7ejqnIBWr9KaMxsnBqotpptRXTyfNRLnFpqzX6sTDt+X+a+6udnU8g=="
+  "resolved" "https://registry.npmjs.org/roboto-fontface/-/roboto-fontface-0.10.0.tgz"
+  "version" "0.10.0"
+
 "run-queue@^1.0.0", "run-queue@^1.0.3":
   "integrity" "sha1-6Eg5bwV9Ij8kOGkkYY4laUFh7Ec="
   "resolved" "https://registry.npmjs.org/run-queue/-/run-queue-1.0.3.tgz"
