@@ -2,35 +2,35 @@ import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/Header.module.css'
 
-const isBrowser = (typeof window !== 'undefined')
 
 class Header extends React.Component {
   constructor (props) {
+    const isBrowser = () => typeof window !== 'undefined'
     super(props)
     this.state = {
       isMenuOpen: false,
-      width: isBrowser ? window.innerWidth : 500
+      windowWidth: isBrowser ? this.innerWidth : 500
     }
     this.handleClick = this.handleClick.bind(this)
   }
 
-  componentDidMount() {
-    window.addEventListener('resize', this.handleWindowSizeChange)
-  }
+  handleResize = (e) => {
+    this.setState({ windowWidth: window.innerWidth });
+   }
   
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.handleWindowSizeChange)
-  }
+   componentDidMount() {
+    window.addEventListener("resize", this.handleResize);
+   }
   
-  handleWindowSizeChange = () => {
-    isBrowser ? this.setState({ width: window.innerWidth }) : 500
-  }
+   componentWillUnMount() {
+    window.addEventListener("resize", this.handleResize);
+   } 
 
   handleClick () { this.setState(state => ({ isMenuOpen: !state.isMenuOpen })) }
-  
+
   render () {
-    const width = this.state.width
-    const isMobile = width <= 750
+    const { windowWidth } = this.state
+    const isMobile = windowWidth <= 750
 
     if (isMobile) {
       return (
@@ -65,9 +65,9 @@ class Header extends React.Component {
           </div>
         </div>
       )
-      } else {
-        return (
-          <div className={styles.container}>
+    } else {
+      return (
+        <div className={styles.container}>
             <div className={styles.titleDesktop}>
               <h1 className={styles.title}>
                 <Link href='/'>
@@ -92,8 +92,8 @@ class Header extends React.Component {
               <a href='https://github.com/emilnuutinen'>Github</a>
             </div>
           </div>
-        )
-      }
+      )
+    }
   }
 }
 
