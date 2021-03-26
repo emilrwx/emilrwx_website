@@ -15,7 +15,12 @@ class Header extends React.Component {
     return (
       <div className={styles.container}>
         <div className={this.state.isMenuOpen ? styles.hidden : null}>
-          <h1 className={styles.title}>Emil Nuutinen</h1>
+          <h1 className={styles.title}>
+            <Link href='/'>
+              Emil Nuutinen
+            </Link>
+          </h1>
+          <h2 className={styles.description}>Data Scientist & Experimentalist.</h2>
         </div>
         <div className={`${styles.menu} ${this.state.isMenuOpen ? null : styles.hidden}`}>
           <Link className={styles.menuLink} href='/'>
