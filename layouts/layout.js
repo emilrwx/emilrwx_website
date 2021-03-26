@@ -1,5 +1,4 @@
 import React from 'react'
-import Menu from '../components/menu'
 import styles from '../styles/Layout.module.css'
 
 class Layout extends React.Component {
@@ -8,7 +7,6 @@ class Layout extends React.Component {
 
     return (
       <div className={styles.container}>
-        <Menu />
         <div className={styles.content}>
           <main>{children}</main>
         </div>
