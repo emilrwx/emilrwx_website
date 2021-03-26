@@ -24,14 +24,10 @@ export default function Blog (props) {
                   </Link>
                 </h2>
                 <p className={styles.excerpt}>
-                  <Link href={'/posts/' + post.slug}>
-                    {post.excerpt}
-                  </Link>
+                  {post.excerpt}
                 </p>
                 <small className={styles.date}>
-                  <Link href={'/posts/' + post.slug}>
-                    {post.date}
-                  </Link>
+                  {post.date}
                 </small>
               </div>
             )
