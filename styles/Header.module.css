@@ -1,21 +1,76 @@
-.wrapper {
-  text-align: center;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #e0e0e0;
+.container {
   max-width: 800px;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 25px;
+  line-height: 35px;
   margin: 0;
 }
 
-.description {
+.menu {
+  padding: 0;
   margin: 0;
-  font-size: 1rem;
-  color: var(--fgSecondary);
+  line-height: 35px;
+}
 
+.menu a {
+  color: var(--fg);
+  box-shadow: none;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.menu a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.menuHidden {
+  visibility: hidden;
+}
+
+.burger {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.burger span {
+  width: 25px;
+  height: 2px;
+  transition: all 0.1s linear;
+  transform-origin: 1px;
+  background: var(--fg);
+}
+
+.hamburgerOpen span:first-child {
+  transform: rotate(45deg);
+}
+
+.hamburgerOpen span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburgerOpen span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.hidden {
+  display: none;
 }
