@@ -1,6 +1,9 @@
 .menu {
   width: 100px;
   float: left;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
 }
 
 .menuLinks {
