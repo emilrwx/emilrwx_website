@@ -28,7 +28,7 @@ export default function About () {
             <li>Vim for quick edits.</li>
             <li>I also write my thoughts in markdown using Vim. I made templates and scripts automating my daily journals and weekly reflections.</li>
             <li>Terminal client is iTerm2 with <a href='https://ohmyz.sh/'>Oh My ZSH</a> & <a href='https://github.com/denysdovhan/spaceship-prompt'>Spaceship prompt</a>.</li>
-            <li>My favorite font is <a href='https://www.jetbrains.com/lp/mono/'>JetBrains Mono</a>.</li>
+            <li>My favorite font is <a href='https://rubjo.github.io/victor-mono/'>Victor Mono</a>.</li>
             <li>Matrix (Element), Slack & Microsoft Teams for communication.</li>
             <li>Firefox for browsing the internet. (Safari & Chrome for testing)</li>
             <li><a href='https://justgetflux.com/'>f.lux</a> to save me from headaches during the nights.</li>
@@ -49,7 +49,7 @@ export default function About () {
             <li>Pop!_OS Shell for window management.</li>
             <li>Development environment is the same as with macOS. (VSCode & Vim)</li>
             <li>Terminal client is Kitty with <a href='https://ohmyz.sh/'>Oh My ZSH</a> & <a href='https://github.com/denysdovhan/spaceship-prompt'>Spaceship prompt</a>.</li>
-            <li>My favorite font is <a href='https://www.jetbrains.com/lp/mono/'>JetBrains Mono</a>.</li>
+            <li>My favorite font is <a href='https://rubjo.github.io/victor-mono/'>Victor Mono</a>.</li>
             <li>Matrix (Element), Slack & Microsoft Teams for communication.</li>
             <li>Firefox & Lynx for browsing the internet.</li>
             <li><a href='http://jonls.dk/redshift/'>Redshift</a> to save me from headaches during the nights.</li>
