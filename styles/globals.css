@@ -41,3 +41,7 @@ b,
 strong {
   font-weight: 500;
 }
+
+small {
+  color: var(--fgSecondary);
+}
