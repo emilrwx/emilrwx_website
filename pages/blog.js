@@ -15,6 +15,9 @@ export default function Blog (props) {
         {props.posts.map(function (post, idx) {
           return (
             <div key={idx} className={styles.post}>
+              <small className={styles.date}>
+                {post.date}
+              </small>
               <h2 className={styles.blogHeader}>
                 <Link href={'/posts/' + post.slug}>
                   {post.title}
@@ -23,9 +26,6 @@ export default function Blog (props) {
               <p className={styles.excerpt}>
                 {post.excerpt}
               </p>
-              <small className={styles.date}>
-                {post.date}
-              </small>
             </div>
           )
         })}

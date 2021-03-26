@@ -1,5 +1,6 @@
 import Layout from '@layouts/layout'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function PostLayout (props) {
   return (
@@ -11,6 +12,9 @@ export default function PostLayout (props) {
         <small>{props.date}</small>
         <h1>{props.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
+        <Link href='/blog'>
+          Back to blog index
+        </Link>
       </article>
     </Layout>
   )
