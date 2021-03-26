@@ -7,13 +7,15 @@
   margin-bottom: 0;
 }
 
-.blogHeader a,
-.excerpt a,
-.date a {
+.blogHeader a {
   color: var(--fg);
   box-shadow: none;
   text-decoration: none;
   margin: 0;
+}
+
+.blogHeader a:hover {
+  color: var(--blue);
 }
 
 .excerpt {
