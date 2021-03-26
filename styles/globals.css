@@ -1,8 +1,19 @@
-:root {
-  --bg: #ffffff;
-  --fg: rgba(0, 0, 0, 0.75);
-  --fgSecondary: rgba(0, 0, 0, 0.5);
-  --blue: rgb(65, 132, 243);
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #22272e;
+    --fg: #b2b2b2;
+    --fgSecondary: #a89984;
+    --blue: rgb(65, 132, 243);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #ffffff;
+    --fg: rgba(0, 0, 0, 0.75);
+    --fgSecondary: rgba(0, 0, 0, 0.5);
+    --blue: rgb(65, 132, 243);
+  }
 }
 
 html {
