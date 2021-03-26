@@ -38,20 +38,18 @@
   padding: 0;
 }
 
-.menu a {
+.menu a,
+.menuDesktop a {
   color: var(--fg);
   box-shadow: none;
   text-decoration: none;
   padding-right: 10px;
 }
 
-.menu a:hover {
+.menu a:hover,
+.menuDesktop a:hover {
   color: var(--blue);
   text-decoration: underline;
-}
-
-.menuHidden {
-  visibility: hidden;
 }
 
 .burger {
@@ -90,4 +88,16 @@
 
 .hidden {
   display: none;
+}
+
+.titleDesktop {
+  float: left;
+}
+
+.menuDesktop {
+  float: right;
+  color: var(--fg);
+  box-shadow: none;
+  text-decoration: none;
+  padding-left: 10px;
 }
