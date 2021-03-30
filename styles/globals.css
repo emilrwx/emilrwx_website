@@ -4,6 +4,7 @@
     --fg: #b2b2b2;
     --fgSecondary: #a89984;
     --blue: rgb(65, 132, 243);
+    --shadow: rgba(0, 0, 0, 0.5)
   }
 }
 
@@ -13,6 +14,7 @@
     --fg: rgba(0, 0, 0, 0.75);
     --fgSecondary: rgba(0, 0, 0, 0.5);
     --blue: rgb(65, 132, 243);
+    --shadow: rgba(0, 0, 0, 0.2)
   }
 }
 
@@ -20,7 +22,7 @@ html {
   overflow-y: visible;
   background: var(--bg);
   margin: 0;
-  padding: 30px 0;
+  padding-bottom: 30px;
   -moz-osx-font-smoothing: grayscale;
 }
 

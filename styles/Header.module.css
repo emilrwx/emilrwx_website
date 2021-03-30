@@ -1,17 +1,23 @@
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
+.header {
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 2px 5px var(--shadow);
+  background: var(--bg);
+}
+
+.content {
+  padding-left: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .title,
 .title a {
   font-size: 25px;
-  line-height: 28px;
+  line-height: 25px;
   margin: 0;
   box-shadow: none;
   text-decoration: none;
@@ -67,12 +73,14 @@
     flex-direction: column;
     justify-content: space-around;
     width: 25px;
-    height: 25px;
+    height: 24px;
     background: transparent;
     border: none;
     cursor: pointer;
     padding: 0;
-    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
   }
 
   .burger span {
