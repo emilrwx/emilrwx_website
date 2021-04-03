@@ -8,14 +8,14 @@ export default function PostLayout (props) {
       <Head>
         <title>{props.title}</title>
       </Head>
-      <article>
+      <main>
+        <h1 style={{ marginBottom: '0px', marginTop: '15px' }}>{props.title}</h1>
         <small>{props.date}</small>
-        <h1>{props.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
         <Link href='/blog'>
           Back to blog index
         </Link>
-      </article>
+      </main>
     </Layout>
   )
 }

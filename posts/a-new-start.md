@@ -14,7 +14,7 @@ I reflected on my feelings and problems last year. What made me feel so overwhel
 
 Now after taking my time and trying different things, I have found my interests and I have a better understanding of the whole field of data science and AI. As a result of all of this, I have created a new curriculum for myself.
 
-**The Plan**
+## The Plan
 
 This time I took my time and research the field thoroughly instead of just blindly trying to learn everything. What I found was that I was actually interested in machine learning.
 
@@ -24,7 +24,7 @@ Still, machine learning is a huge field of science. I can not learn all of it. S
 
 I am starting off by learning the basics behind machine learning and deep learning. How the machine learning process actually works and how to apply it in Python.
 
-**Existing skills**
+## Existing skills
 
 * Python
 * Git / Github
@@ -40,7 +40,7 @@ I am starting off by learning the basics behind machine learning and deep learni
 
 I studied some math in Spain and I have been doing some projects with Python too. I also saw that many companies in Finland are valuing web development skills for machine learning engineers. That is why I added those skills to this list too. 
 
-**Courses I have taken already**
+## Courses I have taken already
 
 * [Intro to Data Science | Udacity](https://eu.udacity.com/course/intro-to-data-science--ud359)
 * [Intro to Descriptive Statistics | Udacity](https://eu.udacity.com/course/intro-to-descriptive-statistics--ud827)
@@ -53,7 +53,7 @@ I studied some math in Spain and I have been doing some projects with Python too
 * [Machine Learning by Stanford (Andrew Ng) | Coursera](https://www.coursera.org/learn/machine-learning) (did not finish)
 * [Ai for Everyone (Andrew Ng) | Coursera](https://www.coursera.org/learn/ai-for-everyone)
 
-The curriculum
+## The curriculum
 
 One more mistake last time was to make a curriculum for the whole process already in the beginning. That just made me feel overwhelmed and tied up with the plan. This time I’m planning the curriculum just one step at a time.
 
