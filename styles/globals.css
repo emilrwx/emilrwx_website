@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #22272e;
+    --bg: #222222;
     --fg: #b2b2b2;
     --fgSecondary: #a89984;
     --blue: rgb(65, 132, 243);
@@ -42,6 +42,7 @@ h5,
 h6 {
   margin-top: 0;
   font-weight: 400;
+  letter-spacing: -0.1rem;
 }
 
 p {
