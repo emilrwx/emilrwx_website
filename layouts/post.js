@@ -1,10 +1,9 @@
-import Layout from '@layouts/layout'
 import Head from 'next/head'
 import Link from 'next/link'
 
 export default function PostLayout (props) {
   return (
-    <Layout>
+    <>
       <Head>
         <title>{props.title}</title>
       </Head>
@@ -16,6 +15,6 @@ export default function PostLayout (props) {
           Back to blog index
         </Link>
       </main>
-    </Layout>
+    </>
   )
 }

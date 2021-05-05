@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Layout from '../layouts/layout'
 
 export default function About () {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Uses</title>
       </Head>
@@ -63,6 +62,6 @@ export default function About () {
 
         <small>&#185;My main distro is Ubuntu, but I use Windows for occasional gaming and random stuff that Linux is not the best distro for.</small>
       </main>
-    </Layout>
+    </>
   )
 }

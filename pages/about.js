@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Layout from '../layouts/layout'
 
 export default function About () {
   return (
-    <Layout>
+    <>
       <Head>
         <title>About</title>
       </Head>
@@ -43,6 +42,6 @@ export default function About () {
         </ul>
         <p>Want to know more? Want to chat with me? Want to work with me? Get in touch! :)</p>
       </main>
-    </Layout>
+    </>
   )
 }

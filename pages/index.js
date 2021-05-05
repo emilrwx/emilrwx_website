@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Layout from '../layouts/layout'
 
 export default function Home () {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Emil Nuutinen</title>
       </Head>
@@ -19,6 +18,6 @@ export default function Home () {
         <b>This website</b>
         <p>If you find any mistakes, bugs or other inappropriateness here, leave an issue or a pull requests to the <a href='https://github.com/emilnuutinen/emilnuutinen_website'>repository</a>.</p>
       </main>
-    </Layout>
+    </>
   )
 }

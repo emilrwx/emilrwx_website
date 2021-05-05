@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '@layouts/layout'
 import styles from '../styles/Blog.module.css'
 
 import { getAllPosts } from '@api'
 
 export default function Blog (props) {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Blog</title>
       </Head>
@@ -30,7 +29,7 @@ export default function Blog (props) {
           )
         })}
       </main>
-    </Layout>
+    </>
   )
 }
 
