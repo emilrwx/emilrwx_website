@@ -56,9 +56,28 @@
   margin-left: 20px;
 }
 
-.menu a:hover {
-  color: var(--blue);
-  text-decoration: underline;
+.menu a:first-child {
+  margin-left: 0;
 }
 
-@media only screen and (max-width: 750px) {}
+.menu a:hover {
+  color: var(--blue);
+}
+
+@media only screen and (max-width: 750px) {
+  .header {
+    height: 150px;
+  }
+
+  .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titleContainer {
+    margin-bottom: 20px;
+  }
+}
