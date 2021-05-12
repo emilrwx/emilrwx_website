@@ -6,13 +6,11 @@ export default function Layout (props) {
   const { children } = props
 
   return (
-    <>
+    <div className={styles.container}>
       <Header />
-      <div className={styles.container}>
-        <div className={styles.content}>
-          <main>{children}</main>
-        </div>
+      <div className={styles.content}>
+        <main>{children}</main>
       </div>
-    </>
+    </div>
   )
 }
