@@ -11,7 +11,7 @@ export default function Header () {
               Emil Nuutinen
             </Link>
           </h1>
-          <h2 className={styles.description}>Data Scientist & Experimentalist.</h2>
+          <p className={styles.description}>Data Scientist & Experimentalist.</p>
         </div>
         <div className={styles.menu}>
           <Link className={styles.menuLink} href='/'>

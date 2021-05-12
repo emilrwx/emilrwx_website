@@ -36,6 +36,7 @@
   line-height: 1rem;
   letter-spacing: -1px;
   color: var(--fgSecondary);
+  font-weight: 400;
 }
 
 .titleContainer {
@@ -79,5 +80,6 @@
 
   .titleContainer {
     margin-bottom: 20px;
+    text-align: center;
   }
 }
