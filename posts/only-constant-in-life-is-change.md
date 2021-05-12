@@ -1,6 +1,6 @@
 ---
 title: Only Constant in Life is Change
-date: "2019-10-04"
+date: "04 Oct, 2019"
 excerpt: "I have lived in Spain for 6 weeks now. I have studied at the University of Alicante for three weeks. And I have studied data science activities for three months. Three months ago I made the decision to start devoting my time to learn data science."
 ---
 
