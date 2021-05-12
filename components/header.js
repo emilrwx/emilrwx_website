@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/Header.module.css'
 
 export default function Header () {
@@ -6,12 +7,15 @@ export default function Header () {
     <div className={styles.header}>
       <div className={styles.content}>
         <div className={styles.titleContainer}>
-          <h1 className={styles.title}>
-            <Link href='/'>
-              Emil Nuutinen
-            </Link>
-          </h1>
-          <p className={styles.description}>Data Scientist & Experimentalist.</p>
+          <Image className={styles.titleImage} src='/me.png' alt='me' width='64' height='64' />
+          <div className={styles.titleText}>
+            <h1 className={styles.title}>
+              <Link href='/'>
+                Emil Nuutinen
+              </Link>
+            </h1>
+            <p className={styles.description}>Data Scientist & Experimentalist.</p>
+          </div>
         </div>
         <div className={styles.menu}>
           <Link className={styles.menuLink} href='/'>

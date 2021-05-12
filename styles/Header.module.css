@@ -4,7 +4,6 @@
   background: var(--bg);
   height: 100px;
   margin-bottom: 50px;
-  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -41,6 +40,17 @@
 
 .titleContainer {
   float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.titleImage {
+  float: left;
+}
+
+.titletext {
+  float: right;
 }
 
 .menu {
