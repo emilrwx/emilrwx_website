@@ -1,17 +1,18 @@
 .post {
-  margin-top: 15px;
   margin-bottom: 25px;
+  padding-bottom: 25px;
+  max-width: 640px;
+  border-bottom: 1px solid var(--shadow);
 }
 
 .blogHeader {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .blogHeader a {
   color: var(--fg);
   box-shadow: none;
   text-decoration: none;
-  margin: 0;
 }
 
 .blogHeader a:hover {
@@ -23,7 +24,7 @@
 }
 
 .date a {
-  margin-top: 0;
+  margin: 0;
   color: var(--fgSecondary);
   font-weight: 500;
 }
