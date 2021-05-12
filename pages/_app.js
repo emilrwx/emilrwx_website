@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Layout from '../layouts/layout'
-import 'roboto-fontface'
+import 'typeface-open-sans'
 
 export default function MyApp ({ Component, pageProps }) {
   return (
