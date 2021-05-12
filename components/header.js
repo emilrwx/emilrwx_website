@@ -1,14 +1,11 @@
-import React, { useState } from 'react'
 import Link from 'next/link'
 import styles from '../styles/Header.module.css'
 
 export default function Header () {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-
   return (
     <div className={styles.header}>
       <div className={styles.content}>
-        <div className={`${styles.titleContainer} ${isMenuOpen ? styles.hidden : null}`}>
+        <div className={styles.titleContainer}>
           <h1 className={styles.title}>
             <Link href='/'>
               Emil Nuutinen
@@ -16,7 +13,7 @@ export default function Header () {
           </h1>
           <h2 className={styles.description}>Data Scientist & Experimentalist.</h2>
         </div>
-        <div className={`${styles.menu} ${isMenuOpen ? null : styles.hidden}`}>
+        <div className={styles.menu}>
           <Link className={styles.menuLink} href='/'>
             Home
           </Link>
@@ -30,14 +27,6 @@ export default function Header () {
             Uses
           </Link>
           <a href='https://github.com/emilnuutinen'>Github</a>
-        </div>
-        <div
-          className={`${styles.burger} ${isMenuOpen ? styles.hamburgerOpen : null}`}
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          <span />
-          <span />
-          <span />
         </div>
       </div>
     </div>
