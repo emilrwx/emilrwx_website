@@ -1,10 +1,6 @@
 # Personal website powered by Next.js and Markdown
 
-Personal "plain text" website with a markdown blog.
+Personal "plain text" website with a markdown blog. I use this website as a sandbox for me to fiddle with different web technologies that interest me. Before this version it was built with Gatsby.js and before that it had a headless Wordpress blog. Next version might be built with Python, who knows :man_shrugging:
 
-### Reasoning
-
-This used to be a modern and complex website with a headless Wordpress blog and animations everywhere and A LOT of CSS. But I got tired of it. This site is continuously getting more and more minimalistic and I like it. I like to browse minimalistic internet and this is my contribution to it. 
-
-[emilnuutinen.com](https://www.emilnuutinen.com/)
+[emilnuutinen.com](https://emilnuutinen.com/)
 
