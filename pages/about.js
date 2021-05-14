@@ -7,40 +7,41 @@ export default function About () {
         <title>About</title>
       </Head>
       <main>
-        <p>My name is Emil. I'm just a random dude trying to figure out how the universe works. I'm also a <b>Software Developer</b> who highly values privacy, security & open source oriented principles. My goal is to become a <b>Data Scientist </b> or a <b>Machine Learning Engineer</b> in the near future. I want to help build data-driven solutions that respect privacy and security.</p>
-        <b>Facts about me</b>
-        <ul>
-          <li>I live in a small and cold country called Finland.</li>
-          <li>I have also lived in Alicante, Spain.</li>
-          <li>I have a degree in Business Information Technology.</li>
-          <li>I used to work as a freelancing bouncer.</li>
-          <li>I love solving problems.</li>
-          <li>I'm extremely curious about everything.</li>
-          <li>I try to learn something new every day.</li>
-          <li>I'm probably the most introverted person you will meet.</li>
-        </ul>
+        <h2>About</h2>
+        <p>Hi, my name is Emil. I'm a <b>software developer</b> studying to become a <b>data scientist</b>.</p>
 
-        <b>What I like to do</b>
+        <p> I graduated with a degree in <b>Business Information Technology</b> in December 2020 and now I'm pondering between getting work experience or doing Computer Science Master's and PhD. My dream is to work in research.</p>
+
+        <p>I'm interested in <b>NLP</b> generally and in privacy conserving data-driven solutions. I'm also interested about improving Finnish NLP.</p>
+
+        <b>How I spend my days?</b>
         <ul>
           <li>Research an interesting problem.</li>
           <li>Collect data related to that problem & find useful insights from it.</li>
-          <li>Write code to create a solution to that problem.</li>
+          <li>Write a solution to that problem.</li>
+          <li>Learn new skills to do those three things better.</li>
+        </ul>
+        <p>OR</p>
+        <ul>
+          <li>Look into some interesting data.</li>
+          <li>Find an interesting problem from it.</li>
+          <li>Write a solution to that problem.</li>
           <li>Learn new skills to do those three things better.</li>
         </ul>
 
         <b>Most used technologies</b>
         <ul>
-          <li>JavaScript [React, Node.js]</li>
-          <li>Python</li>
+          <li>Python [The basic scientific stack]</li>
+          <li>JavaScript [React, Next.js, Node.js]</li>
           <li>HTML & CSS</li>
         </ul>
 
-        <b>Social</b>
+        <b>Contact</b>
+        <p>I'm not that active on social media, but you can find me on:</p>
         <ul>
-          <li>Matrix: @emilnuutinen:matrix.org</li>
-          <li>Telegram: emilnuutinen</li>
+          <li><a href='https://twitter.com/EmilNuutinen'>Twitter</a></li>
+          <li><a href='https://github.com/emilnuutinen'>Github</a></li>
         </ul>
-        <p>Want to know more? Want to chat with me? Want to work with me? Get in touch! :)</p>
       </main>
     </>
   )
