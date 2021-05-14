@@ -7,12 +7,12 @@ export default function Home () {
         <title>Emil Nuutinen</title>
       </Head>
       <main>
-        <p>Hi Stranger! Welcome to my corner of the web. On this website I share thoughts about life and career. I will also try my best to write about things I'm interested in, such as software development, data science, machine learning, interesting books, philosophy, privacy, security, etc.</p>
+        <p>Hi Stranger! Welcome to my corner of the web. This website lives mainly as a sandbox for me to fiddle with different web technologies. I also try my best to blog about things I'm interested in, such as software development, data science, machine learning, privacy, etc.</p>
 
         <b>Contact</b>
         <ul>
-          <li>Matrix: @emilnuutinen:matrix.org</li>
-          <li>Telegram: emilnuutinen</li>
+          <li><a href='https://twitter.com/EmilNuutinen'>Twitter</a></li>
+          <li><a href='https://github.com/emilnuutinen'>Github</a></li>
         </ul>
 
         <b>This website</b>
