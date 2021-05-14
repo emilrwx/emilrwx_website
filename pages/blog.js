@@ -14,14 +14,14 @@ export default function Blog (props) {
         {props.posts.map(function (post, idx) {
           return (
             <div key={idx} className={styles.post}>
+              <small className={styles.date}>
+                {post.date}
+              </small>
               <h2 className={styles.blogHeader}>
                 <Link href={'/posts/' + post.slug}>
                   {post.title}
                 </Link>
               </h2>
-              <small className={styles.date}>
-                {post.date}
-              </small>
               <p className={styles.excerpt}>
                 {post.excerpt}
               </p>

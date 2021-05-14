@@ -1,6 +1,5 @@
 .post {
   margin-bottom: 25px;
-  padding-bottom: 25px;
   max-width: 640px;
   border-bottom: 1px solid var(--shadow);
 }
@@ -20,7 +19,7 @@
 }
 
 .excerpt {
-  margin: 0;
+  margin-top: 2px;
 }
 
 .date a {
