@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Layout from '../layouts/layout'
-import 'typeface-open-sans'
+import 'typeface-poppins'
 
 export default function MyApp ({ Component, pageProps }) {
   return (

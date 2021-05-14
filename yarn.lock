@@ -1890,6 +1890,11 @@
   "resolved" "https://registry.npmjs.org/typeface-open-sans/-/typeface-open-sans-1.1.13.tgz"
   "version" "1.1.13"
 
+"typeface-poppins@^1.1.13":
+  "integrity" "sha512-VLNaET8kK7M3gPGjtKhr4/Iw6aseM2FLdiEGevlqXWD9b8QlzqZC4ro7sP78L9HJnOo2SUVvwJUeCn82gBcNqw=="
+  "resolved" "https://registry.npmjs.org/typeface-poppins/-/typeface-poppins-1.1.13.tgz"
+  "version" "1.1.13"
+
 "unbox-primitive@^1.0.0":
   "integrity" "sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw=="
   "resolved" "https://registry.npmjs.org/unbox-primitive/-/unbox-primitive-1.0.1.tgz"
