@@ -27,10 +27,9 @@ export default function Header () {
           <Link href='/blog'>
             Blog
           </Link>
-          <Link href='/uses'>
-            Uses
+          <Link href='/tech'>
+            Tech
           </Link>
-          <a href='https://github.com/emilnuutinen'>Github</a>
         </div>
       </div>
     </div>
