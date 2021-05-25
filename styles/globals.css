@@ -1,5 +1,14 @@
-:root {
-  --bg: #1d1f21;
+body[data-theme="light"] {
+  --bg: #ffffff;
+  --fg: rgba(0, 0, 0, 0.65);
+  --fgHeader: rgba(0, 0, 0, 0.85);
+  --fgSecondary: rgba(0, 0, 0, 0.5);
+  --blue: rgb(65, 132, 243);
+  --shadow: rgba(0, 0, 0, 0.2)
+}
+
+body[data-theme="dark"] {
+  --bg: #0e141b;
   --fg: #b2b2b2;
   --fgSecondary: #a89984;
   --fgHeader: #ddd;
@@ -24,6 +33,7 @@ body {
   line-height: 1.625rem;
   font-weight: 400;
   margin: 0;
+  transition: background 0.25s ease-in-out;
 }
 
 h1,
