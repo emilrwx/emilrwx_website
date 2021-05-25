@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Header.module.css'
 
-const ThemeToggle = dynamic(() => import('../components/ThemeToggle'), {
+const ThemeToggle = dynamic(() => import('../components/themeToggle'), {
   ssr: false
 })
 
