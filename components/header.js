@@ -1,6 +1,11 @@
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Header.module.css'
+
+const ThemeToggle = dynamic(() => import('../components/ThemeToggle'), {
+  ssr: false
+})
 
 export default function Header () {
   return (
@@ -18,7 +23,7 @@ export default function Header () {
           </div>
         </div>
         <div className={styles.menu}>
-          <Link className={styles.menuLink} href='/'>
+          <Link href='/'>
             Home
           </Link>
           <Link href='/about'>
@@ -30,6 +35,7 @@ export default function Header () {
           <Link href='/tech'>
             Tech
           </Link>
+          <ThemeToggle />
         </div>
       </div>
     </div>
