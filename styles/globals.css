@@ -1,9 +1,10 @@
 :root {
-  --bg: #ffffff;
-  --fg: rgba(0, 0, 0, 0.85);
-  --fgSecondary: rgba(0, 0, 0, 0.5);
-  --blue: rgb(65, 132, 243);
-  --shadow: rgba(0, 0, 0, 0.2)
+  --bg: #1d1f21;
+  --fg: #b2b2b2;
+  --fgSecondary: #a89984;
+  --fgHeader: #ddd;
+  --blue: #6a9fb5;
+  --shadow: rgba(255, 255, 255, 0.2)
 }
 
 html {
@@ -19,7 +20,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: 'Poppins';
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.625rem;
   font-weight: 400;
   margin: 0;
@@ -34,11 +35,14 @@ h6 {
   margin-top: 0;
   font-weight: 600;
   letter-spacing: -0.1rem;
+  color: var(--fgHeader);
 }
 
 b,
 strong {
   font-weight: 600;
+  color: var(--fgHeader);
+
 }
 
 small {

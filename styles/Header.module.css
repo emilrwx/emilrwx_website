@@ -26,7 +26,7 @@
   margin: 0;
   box-shadow: none;
   text-decoration: none;
-  color: var(--fg);
+  color: var(--fgHeader);
 }
 
 .description {
@@ -55,13 +55,13 @@
 
 .menu {
   float: right;
-  color: var(--fg);
+  color: var(--fgHeader);
   box-shadow: none;
   text-decoration: none;
 }
 
 .menu a {
-  color: var(--fg);
+  color: var(--fgHeader);
   box-shadow: none;
   text-decoration: none;
   margin-left: 20px;
