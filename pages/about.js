@@ -10,24 +10,19 @@ export default function About () {
         <h2>About</h2>
         <p>Hi, my name is Emil. I'm a <b>software developer</b> studying to become a <b>data scientist</b>.</p>
 
-        <p> I graduated with a degree in <b>Business Information Technology</b> in December 2020 and now I'm pondering between getting work experience or doing Computer Science Master's and PhD. My dream is to work in research.</p>
+        <p> I graduated with a degree in <b>Business Information Technology</b> in December 2020 and now I'm pondering between getting work experience or doing Computer Science Master's. My goal is to work in research some day.</p>
 
-        <p>I'm interested in <b>NLP</b> generally and in privacy conserving data-driven solutions. I'm also interested about improving Finnish NLP.</p>
+        <p>I'm interested in <b>NLP</b> generally and in privacy conserving software solutions. I want to contribute in improving <b>finnish NLP</b> solutions. I'm also interested in <b>Computer Vision</b> and <b>Robotics</b>. I have not yet decided what my main focus is. I'm interested in too many areas.</p>
 
-        <b>How I spend my days?</b>
+        <b>What I enjoy doing?</b>
         <ul>
           <li>Research an interesting problem.</li>
-          <li>Collect data related to that problem & find useful insights from it.</li>
-          <li>Write a solution to that problem.</li>
+          <li>Collect data about it & find useful insights from that data.</li>
+          <li>Write a solution to that problem. (Ususally with Python)</li>
           <li>Learn new skills to do those three things better.</li>
         </ul>
-        <p>OR</p>
-        <ul>
-          <li>Look into some interesting data.</li>
-          <li>Find an interesting problem from it.</li>
-          <li>Write a solution to that problem.</li>
-          <li>Learn new skills to do those three things better.</li>
-        </ul>
+
+        <p>I also enjoy fiddling with frontend projects. I try new things on this website weekly. I have fallen in love with algortihms too lately. I enjoy coding challenges and implementing random algorithms that I bump into.</p>
 
         <b>Most used technologies</b>
         <ul>
