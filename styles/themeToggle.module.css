@@ -1,0 +1,47 @@
+.toggleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-left: 20px;
+  width: 16px;
+  padding: 0;
+}
+
+.sun,
+.moon {
+  width: 16px;
+  height: 16px;
+  stroke-width: 1px;
+  fill: none;
+  stroke: var(--fgHeader);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.moon {
+  transform: rotate(40deg);
+}
+
+.moon mask rect,
+.moon circle,
+.sun {
+  fill: var(--fgHeader);
+  stroke: var(--fgHeader);
+}
+
+.moon:hover mask rect,
+.moon:hover circle,
+.sun:hover {
+  fill: yellow;
+}
+
+.moon mask circle {
+  fill: black;
+}
+
+.moon:hover mask circle {
+  fill: black;
+}
