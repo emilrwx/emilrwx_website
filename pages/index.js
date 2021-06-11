@@ -14,13 +14,6 @@ export default function Home (props) {
         <h1>Hi Stranger!</h1>
         <p>Welcome to my corner of the web. This website lives divly as a sandbox for me to fiddle with different web technologies. I also try my best to blog about things I'm interested in, such as software development, data science, machine learning, privacy, etc.</p>
 
-        <b>Contact</b>
-        <ul>
-          <li><a href='https://twitter.com/EmilNuutinen'>Twitter</a></li>
-          <li><a href='https://github.com/emilnuutinen'>Github</a></li>
-          <li>hello@emilnuutinen.com</li>
-        </ul>
-
         <h2>Latest blog posts</h2>
 
         {props.posts.map(function (post, idx) {
