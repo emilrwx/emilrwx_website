@@ -4,10 +4,10 @@ export default function About () {
   return (
     <>
       <Head>
-        <title>Tech</title>
+        <title>Uses</title>
       </Head>
-      <main>
-        <h2>Uses</h2>
+      <div>
+        <h1>Uses</h1>
         <p>I get often asked what software or hardware I use. So I decided to make a separate page listing everything I use daily.</p>
 
         <b>Main Setup (work & personal use)</b>
@@ -58,7 +58,7 @@ export default function About () {
         </ul>
 
         <small>&#185;My main distro is Ubuntu, but I use Windows for occasional gaming.</small>
-      </main>
+      </div>
     </>
   )
 }

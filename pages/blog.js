@@ -10,7 +10,7 @@ export default function Blog (props) {
       <Head>
         <title>Blog</title>
       </Head>
-      <main>
+      <div>
         {props.posts.map(function (post, idx) {
           return (
             <div key={idx} className={styles.post}>
@@ -28,7 +28,7 @@ export default function Blog (props) {
             </div>
           )
         })}
-      </main>
+      </div>
     </>
   )
 }

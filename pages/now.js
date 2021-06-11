@@ -6,9 +6,9 @@ export default function About () {
       <Head>
         <title>Now</title>
       </Head>
-      <main>
+      <div>
         <h2>Now</h2>
-      </main>
+      </div>
     </>
   )
 }
