@@ -12,7 +12,7 @@ export default function Home (props) {
       </Head>
       <div>
         <h1>Hi Stranger!</h1>
-        <p>Welcome to my corner of the web. This website lives divly as a sandbox for me to fiddle with different web technologies. I also try my best to blog about things I'm interested in, such as software development, data science, machine learning, privacy, etc.</p>
+        <p>Welcome to my corner of the web. This website lives mainly as a sandbox for me to fiddle with different web technologies. I also try my best to blog about things I'm interested in, such as software development, data science, machine learning, privacy, etc.</p>
 
         <h2>Latest blog posts</h2>
 
