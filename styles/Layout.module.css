@@ -1,7 +1,7 @@
 .container {
   background: var(--bg);
   width: 1200px;
-  max-width: 100vw;
+  max-width: calc(100vw - 32px);
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
@@ -77,4 +77,15 @@
 .content ul>li:before {
   content: "- ";
   text-indent: -5px;
+}
+
+@media only screen and (max-width: 750px) {
+  .bio {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .main {
+    width: 100%;
+  }
 }
