@@ -23,10 +23,13 @@ export default function Header () {
           <Link href='/blog'>
             Blog
           </Link>
+          <ThemeToggle />
           <Link href='/uses'>
             Uses
           </Link>
-          <ThemeToggle />
+          <Link href='/now'>
+            Now
+          </Link>
         </div>
       </div>
     </div>
