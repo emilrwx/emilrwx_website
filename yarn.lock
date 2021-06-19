@@ -39,6 +39,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@fontsource/jetbrains-mono@^4.4.5":
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/jetbrains-mono/-/jetbrains-mono-4.4.5.tgz#1448c1611ebfdf360847e40328f643ab642247ab"
+  integrity sha512-/xBExp46j7LF0v3mVSy46gEL4NICOyTW8zLKEJegMd5pRBprTwcPY1xpDnAbsljiq9gMSvUyoV4aJ+D61wjjCw==
+
 "@hapi/accept@5.0.1":
   version "5.0.1"
   resolved "https://registry.npmjs.org/@hapi/accept/-/accept-5.0.1.tgz"

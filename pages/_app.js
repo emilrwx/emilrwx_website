@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Layout from '../layouts/layout'
-import 'typeface-poppins'
+import '@fontsource/jetbrains-mono';
 
 export default function MyApp ({ Component, pageProps }) {
   return (
