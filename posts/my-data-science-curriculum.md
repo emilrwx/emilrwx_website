@@ -1,7 +1,7 @@
 ---
 title: My Online Data Science Curriculum
-date: "02 Aug, 2019"
-excerpt: "At the start of 2019, I decided that I want to switch from web development to data science. I am already studying BBA, Business Information Technology at the Turku University of Applied Sciences. I am doing an exchange year at the University of Alicante in Spain. There I was able to add a lot of math to my curriculum, but not any machine learning or data science courses to it. "
+date: "2019-08-02"
+tags: [career]
 ---
 
 At the start of 2019, I decided that I want to switch from web development to data science. I am already studying BBA, Business Information Technology at the Turku University of Applied Sciences. I am doing an exchange year at the University of Alicante in Spain. There I was able to add a lot of math to my curriculum, but not any machine learning or data science courses to it.  

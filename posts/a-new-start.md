@@ -1,7 +1,7 @@
 ---
 title: A New Start
-date: "27 Apr, 2020"
-excerpt: "At the start of 2019, I decided that I want to switch from web development to data science. I started learning and reading everything about data science, Python and mathematics related to data science."
+date: "2020-04-27"
+tags: [career]
 ---
 
 At the start of 2019, I decided that I want to switch from web development to data science. I started learning and reading everything about data science, Python and mathematics related to data science.

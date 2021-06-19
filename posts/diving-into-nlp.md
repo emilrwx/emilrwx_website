@@ -1,8 +1,7 @@
 ---
 title: Diving into NLP
-date: "13 Jul, 2020"
-excerpt: "It has passed quite some time since my last post and a lot has happened since.
-During the Corona quarantine, I decided to give my data career a new start."
+date: "2020-07-13"
+tags: [career, nlp]
 ---
 
 It has passed quite some time since my last post and a lot has happened since.
