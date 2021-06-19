@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Post.module.css'
 
 export default function PostLayout (props) {
   return (
@@ -8,9 +7,15 @@ export default function PostLayout (props) {
       <Head>
         <title>{props.title}</title>
       </Head>
-      <main className={styles.layout}>
-        <h1 className={styles.header}>{props.title}</h1>
-        <small>Last updated {props.date}</small>
+      <main>
+        <h1>{props.title}</h1>
+        <small>Tags:
+          {props.tags.map(tag => (
+            <code key={tag}>
+              &nbsp;`{tag}`
+            </code>
+          ))}
+        </small>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
         <Link href='/blog'>
           Back to blog index

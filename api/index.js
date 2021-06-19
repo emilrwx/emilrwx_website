@@ -12,7 +12,7 @@ export async function getAllPosts () {
       slug: post.replace('.md', ''),
       title: meta.data.title,
       date: meta.data.date,
-      excerpt: meta.data.excerpt
+      tags: meta.data.tags
     })
   }
   return posts
@@ -25,7 +25,7 @@ export async function getPostBySlug (slug) {
   return {
     title: meta.data.title,
     date: meta.data.date,
-    excerpt: meta.data.excerpt,
+    tags: meta.data.tags,
     content: content
   }
 }

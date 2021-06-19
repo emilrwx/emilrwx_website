@@ -10,24 +10,23 @@ export default function Header () {
   return (
     <div className={styles.header}>
       <div className={styles.content}>
-        <h1 className={styles.title}>
-          <Link href='/'>
-            Emil Nuutinen
-          </Link>
-        </h1>
         <div className={styles.menu}>
           <Link href='/'>
             Home
           </Link>
+          &nbsp;-&nbsp;
+          <Link href='/about'>
+            About
+          </Link>
+          &nbsp;-&nbsp;
+          <ThemeToggle />
+          &nbsp;-&nbsp;
           <Link href='/blog'>
             Blog
           </Link>
-          <ThemeToggle />
+          &nbsp;-&nbsp;
           <Link href='/uses'>
             Uses
-          </Link>
-          <Link href='/now'>
-            Now
           </Link>
         </div>
       </div>

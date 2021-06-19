@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Blog.module.css'
 
 import { getAllPosts } from '@api'
 
@@ -10,25 +9,21 @@ export default function Blog (props) {
       <Head>
         <title>Blog</title>
       </Head>
-      <div>
-        {props.posts.map(function (post, idx) {
-          return (
-            <div key={idx} className={styles.post}>
-              <small className={styles.date}>
-                {post.date}
-              </small>
-              <h2 className={styles.blogHeader}>
+      <main>
+        <h1>Blog</h1>
+        <p>Random ramblings about everything.</p>
+        <ul>
+          {props.posts.map(function (post, idx) {
+            return (
+              <li key={idx}>{post.date}:&nbsp;
                 <Link href={'/posts/' + post.slug}>
-                  {post.title}
+                  <a>{post.title}</a>
                 </Link>
-              </h2>
-              <p className={styles.excerpt}>
-                {post.excerpt}
-              </p>
-            </div>
-          )
-        })}
-      </div>
+              </li>
+            )
+          })}
+        </ul>
+      </main>
     </>
   )
 }

@@ -5,7 +5,6 @@
   cursor: pointer;
   background: none;
   border: none;
-  margin: 0 10px;
   width: 16px;
   padding: 0;
 }
@@ -16,7 +15,7 @@
   height: 16px;
   stroke-width: 1px;
   fill: none;
-  stroke: var(--fgHeader);
+  stroke: var(--textNormal);
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -28,14 +27,14 @@
 .moon mask rect,
 .moon circle,
 .sun {
-  fill: var(--fgHeader);
-  stroke: var(--fgHeader);
+  fill: var(--textNormal);
+  stroke: var(--textNormal);
 }
 
 .moon:hover mask rect,
 .moon:hover circle,
 .sun:hover {
-  fill: yellow;
+  fill: var(--textTitle);
 }
 
 .moon mask circle {

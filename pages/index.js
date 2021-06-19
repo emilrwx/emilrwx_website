@@ -1,50 +1,21 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Blog.module.css'
-
-import { getAllPosts } from '@api'
 
 export default function Home (props) {
   return (
     <>
       <Head>
-        <title>Emil Nuutinen</title>
+        <title>Home</title>
       </Head>
-      <div>
+      <main>
         <h1>Hi Stranger!</h1>
         <p>Welcome to my corner of the web. This website lives mainly as a sandbox for me to fiddle with different web technologies. I also try my best to blog about things I'm interested in, such as software development, data science, machine learning, privacy, etc.</p>
 
-        <h2>Latest blog posts</h2>
+        <p>I'm not too active on social media, but I try to keep my <Link href='/now'>now</Link> page updated everytime I do something worth mentioning.</p>
 
-        {props.posts.map(function (post, idx) {
-          return (
-            <div key={idx} className={styles.post}>
-              <small className={styles.date}>
-                {post.date}
-              </small>
-              <h3 className={styles.blogHeader}>
-                <Link href={'/posts/' + post.slug}>
-                  {post.title}
-                </Link>
-              </h3>
-              <p className={styles.excerpt}>
-                {post.excerpt}
-              </p>
-            </div>
-          )
-        })}
-
-      </div>
+        <h2>This website</h2>
+        <p>If you find any mistakes, bugs or other inappropriateness here, leave an issue or a pull requests to the <a href='https://github.com/emilnuutinen/emilnuutinen_website'>repository</a>.</p>
+      </main>
     </>
   )
-}
-
-export async function getStaticProps () {
-  const allPosts = await getAllPosts()
-  allPosts.sort((a, b) => new Date(b.date) - new Date(a.date))
-  return {
-    props: {
-      posts: allPosts
-    }
-  }
 }
