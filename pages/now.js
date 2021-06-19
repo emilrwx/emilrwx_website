@@ -8,7 +8,7 @@ export default function About () {
       </Head>
       <div>
         <h1>Now</h1>
-        This page is inspired by <a href='https://sive.rs/nowff'>Dereks Sivers'</a> now page.
+        <p>This page is inspired by <a href='https://sive.rs/nowff'>Dereks Sivers'</a> now page.</p>
 
         <h2>Learning</h2>
         <p>I graduated in December 2020. I'm currently waiting if I get to study Computer Science Master's in the University of Turku. </p>
