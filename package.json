@@ -2,6 +2,7 @@
   "name": "emilnuutinen_website",
   "version": "3.0.0",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,13 +12,11 @@
     "@fontsource/jetbrains-mono": "^4.4.5",
     "next": "10.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "typeface-open-sans": "^1.1.13",
-    "typeface-poppins": "^1.1.13"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",
-    "marked": "^2.0.3",
+    "marked": "^2.1.1",
     "raw-loader": "^4.0.2"
   }
 }
