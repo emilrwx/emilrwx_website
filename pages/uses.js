@@ -37,7 +37,7 @@ export default function About () {
         <h2>Desktop Setup (for dev only)</h2>
         <ul>
           <li>Fractal Design Case, Intel i5-6500 @ 3.600GHz, 32 GB DDR4, NVIDIA GeForce GTX 1060 3 GB, Kingston 480 GB & 120 GB SSD, Kingston 1 TB HDD</li>
-          <li>Dual boot Arch LInux and Windows 10 <sup>1</sup></li>
+          <li>Dual boot Arch Linux and Windows 10 <sup>1</sup></li>
           <li>LG 38WK95C-C Ultra-Wide</li>
           <li>Corsair K65 LUX RGB Tenkeyless</li>
           <li>Logitech MX Master 2S</li>
@@ -45,7 +45,7 @@ export default function About () {
 
         <h3>Software (Arch)</h3>
         <ul>
-          <li>Qtile for window management.</li>
+          <li>i3-gaps for window management.</li>
           <li>Development environment is the same as with macOS. (VSCode & Vim)</li>
           <li>I'm currently testing qutebrowser for a more minimalistic browsing experience. I don't use mouse that much on Arch anyway.</li>
           <li>Terminal client is Kitty with <a href='https://ohmyz.sh/'>Oh My ZSH</a> & <a href='https://github.com/denysdovhan/spaceship-prompt'>Spaceship prompt</a>.</li>
